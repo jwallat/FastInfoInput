@@ -10,17 +10,16 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace FastInfoInput
+namespace FastInfoInput.View
 {
     /// <summary>
-    /// Interaktionslogik für MainWindow.xaml
+    /// Interaktionslogik für SubWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class MemberInfoWindow : Window
     {
-        public MainWindow()
+        public MemberInfoWindow()
         {
             InitializeComponent();
         }
